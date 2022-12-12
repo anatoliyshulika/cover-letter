@@ -1,0 +1,15 @@
+.container {
+  width: 794px;
+  height: 1123px;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+
+  background: linear-gradient(
+    125deg,
+    #7d7d7d 7%,
+    #ffffff 7% 32%,
+    #f4f4f4 32% 69%,
+    #ffffff 69% 92%,
+    #7d7d7d 92%
+  );
+}

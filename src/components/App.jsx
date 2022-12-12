@@ -1,11 +1,4 @@
-import Profile from './Profile/Profile';
-import Statistics from './Statistics/Statistics';
-import FriendList from './Friends/FriendList/FriendList';
-import TransactionHistory from './TransactionHistory/TransactionHistory';
-import user from '../data/user.json';
-import data from '../data/data.json';
-import friends from '../data/friends.json';
-import transactions from '../data/transactions.json';
+import MainContainer from './MainContainer/MainContainer';
 
 export const App = () => {
   return (
@@ -18,10 +11,7 @@ export const App = () => {
         color: '#010101',
       }}
     >
-      <Profile user={user} />
-      <Statistics title="Upload stats" stats={data} />
-      <FriendList friends={friends} />
-      <TransactionHistory transactions={transactions} />
+      <MainContainer />
     </div>
   );
 };
