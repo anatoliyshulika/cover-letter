@@ -1,8 +1,8 @@
 {
-  "name": "goit-react-hw-01-components",
+  "name": "cover-letter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anatoliyshulika.github.io/goit-react-hw-01-components/",
+  "homepage": "https://anatoliyshulika.github.io/cover-letter/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
