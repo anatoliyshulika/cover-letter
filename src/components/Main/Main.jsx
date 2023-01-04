@@ -6,7 +6,7 @@ export default function Main() {
       <p className={css.main__paragraph}>Dear Hiring Manager,</p>
       <p className={css.main__paragraph}>
         I'm interested in a vacancy on the position of a junior frontend
-        developer, posted on djinni.co website.
+        developer.
       </p>
       <p className={css.main__paragraph}>
         I am a Junior Frontend developer with 8 month of experience. I have a
@@ -19,17 +19,17 @@ export default function Main() {
         was easier for me to understand the material. I am a responsible, fast
         learner and ready for difficult tasks.
       </p>
-      <p className={css.main__paragraph}>
+      {/* <p className={css.main__paragraph}>
         It would be a pleasure to meet you at the interview.
-      </p>
+      </p> */}
       <p className={css.main__paragraph}>Feel free to contact me any time.</p>
-      <p className={css.main__paragraph}>
+      {/* <p className={css.main__paragraph}>
         Thank you for your time and attention!
       </p>
       <p className={css.main__paragraph}>Best Regards,</p>
       <p className={`${css.main__paragraph} ${css.main__signature}`}>
         Anatolii Shulika
-      </p>
+      </p> */}
     </section>
   );
 }
